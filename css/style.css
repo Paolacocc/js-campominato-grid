@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkseagreen;
+}
+.container {
+    width: 500px;
+   
+    margin: 100px auto;
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: calc(500px / 10);
+    height: calc(500px / 10);
+    border: 1px solid white;
+}
